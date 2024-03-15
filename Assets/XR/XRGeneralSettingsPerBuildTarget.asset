@@ -16,7 +16,8 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 081fe1a4da4c6ba449a7cd7a36b7a6ce, type: 2}
+  - {fileID: 11400000, guid: d6bf971618929c04b85f6767540e7933, type: 2}
+  - {fileID: 11400000, guid: c4af0ac5e7e832747af247ed7004fbbc, type: 2}
 --- !u!114 &-5506085296214663901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,7 +34,24 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 081fe1a4da4c6ba449a7cd7a36b7a6ce, type: 2}
+  - {fileID: 11400000, guid: d6bf971618929c04b85f6767540e7933, type: 2}
+  - {fileID: 11400000, guid: c4af0ac5e7e832747af247ed7004fbbc, type: 2}
+--- !u!114 &-1900801438097948590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: Metro Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders: []
 --- !u!114 &-712644343308881443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,10 +78,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 0100000007000000
+  Keys: 01000000070000000e000000
   Values:
   - {fileID: 8787952053733980147}
   - {fileID: -712644343308881443}
+  - {fileID: 1983429207116273175}
+--- !u!114 &1983429207116273175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: Metro Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: -1900801438097948590}
+  m_InitManagerOnStart: 1
 --- !u!114 &8787952053733980147
 MonoBehaviour:
   m_ObjectHideFlags: 0

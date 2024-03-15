@@ -15,5 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DeathScene.unity
     guid: 6f8c8aedc22b8c94090daf1da0c59fe1
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e56e8d49516553b4e8d8c4a74be529cc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ecb6e772955d6de45ada444cb37c2fd0, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8458a2f5ebf8b974086fc8803a45e560, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 90b7e0435a134d74199aaa8a95374aeb, type: 2}
