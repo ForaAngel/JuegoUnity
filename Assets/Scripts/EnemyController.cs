@@ -108,7 +108,7 @@ public class EnemyController : MonoBehaviour
             audioSource.Play();
         }
     }
-
+    
     private void NextWaypoint()
     {
         currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
