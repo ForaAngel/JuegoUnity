@@ -417,9 +417,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Susto:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 6799068193981525856, guid: bc3afe104af9e6f45ad160b5e9c9d2d4, type: 3}
+  - {fileID: 1700084657535376573, guid: 5d99ebbe237d64e4f8fc6c83535d7809, type: 3}
+  - {fileID: 9003664918273194812, guid: 6a192f3ebc96a364283ad2f0f3a5c590, type: 3}
 --- !u!54 &177715554
 Rigidbody:
   m_ObjectHideFlags: 0
